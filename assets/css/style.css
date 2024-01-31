@@ -1,0 +1,1094 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: ; 
+
+}
+li {
+    list-style: none;
+    font-family: Gilroy-Medium;
+}
+@font-face {
+    font-family: myfont;
+    src: url(chibold.ttf);
+}
+@font-face {
+    font-family: myfonttt;
+    src: url(patrick.ttf);
+}
+/* ----------------------------------banr-sec--------------------------------- */
+.main-bg{
+    background-image: url(../images/bag.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: #F4BA4E;
+    height:500vw;
+    position: relative;
+    z-index: 3;
+
+    
+}
+
+.main-bg .cntr .btn-icn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1vw;
+    padding: 2vw;
+}
+.main-bg .cntr .btn-icn .butn{
+    border: none;
+    background-color: #fff;
+    border: 2px solid black;
+    color: #000;
+    font-size: 1.2vw;
+    font-family: myfont;
+    padding: .7vw 1.8vw;
+    border-radius: 20px;
+    margin-top: 1vw;
+    
+}
+.main-bg .cntr .btn-icn .butn:hover{
+    background-color: #D54678;
+}
+.main-bg .cntr .btn-icn img{
+    width: 4vw;
+}
+.main-bg .cntr .btn-icn img:hover{
+    transform: translateY(-4px);
+}
+.main-bg .center-logo{
+    text-align: center;
+    margin-top: 5vw;
+}
+.main-bg .center-logo .lgo-1{
+    width: 40vw;
+    display: flex;
+    margin: auto;
+
+}
+.main-bg .center-logo .lgo-2{
+    width: 50vw;
+    display: flex;
+    margin: auto; 
+
+}
+.main-bg .center-logo p{
+    font-size: 1vw;
+
+    width:23vw;
+    margin: auto;
+    /* transform: translateY(-20PX); */
+    z-index: -2;
+    padding-left: 2REM;
+    font-weight: 400;
+    font-family: myfonttt;
+    color: #120100;
+}
+.main-bg .btk-img .btk-1{
+    width: 41vw;
+    animation: shakeX 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    
+}
+.main-bg .btk-img .btk-2{
+    width: 57vw;
+    animation: pulse 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+}
+.main-bg .btk-img .btk-3{
+    width: 28vw;
+}
+.main-bg .btk-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 11%;
+}
+.main-bg .flag img{
+    width: 100%;
+    transform: translateY(10rem);
+    
+}
+
+.main-bg  .box-1{
+    position: relative;
+}
+.main-bg  .box-1 .crnt-1{
+    position: absolute;
+}
+.main-bg  .box-1 .btk-3{
+    position: absolute;
+    top: 32%;
+    width: 28vw;
+    left: 17%;
+    animation: pulse 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+
+}
+.main-bg  .box-1 .text{
+    position: absolute;
+    left: 47%;
+    top: 40%;
+}
+.main-bg  .box-1 .text p{
+    width: 32vw;
+    font-family: myfonttt;
+    color: #120100;
+    line-height: 2.2vw;
+}
+.main-bg  .box-1 .text .box-btn{
+    border: none;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(91deg, #D54678 8.45%, #FA634F 105.75%);
+    font-size: 1.2vw;
+    font-family: myfont;
+    padding: .7vw 1.8vw;
+    line-height: 2vw;
+    color: #fff;
+    
+}
+.main-bg  .box-1 .text .box-btn:hover{
+    background: #000;
+}
+.main-bg  .box-1 .boxx{
+    width:83%;
+    display: flex;
+    margin: auto;
+}
+.main-bg  .box-1  .hding{
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    font-size:4vw;
+    font-family: myfont;
+    color: #fff;
+    letter-spacing: -0.56px;
+}
+.crnt-1{
+    position: absolute;
+    top: -10%;
+    width: 13vw;
+    left: 0;
+    animation: flash 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    
+    
+}
+.crn-1{
+    position: absolute;
+    right: 0;
+    width: 10vw;
+}
+.crn-2{
+    position: absolute;
+    width: 7vw;
+    top: 50%;
+    left: 0;
+}
+/* ---------------box-bg---------- */
+.main-bg .box-bg{
+    position: relative;
+
+}
+.main-bg .box-bg .left{
+    position: absolute;
+    left: 20%;
+    top: 18%;
+
+}
+
+.crn-3{
+    position: absolute;
+    right: 0;
+    top: 23%;
+    width: 12vw;
+}
+.crnt-4{
+    position: absolute;
+    width: 9vw;
+    top: 97%;
+    left: 0;
+    animation: flash 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+}
+
+.btk-4{
+    position: absolute;
+    left: 55%;
+    width: 25vw;
+    top: 16%;
+    animation: shakeX 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+}
+.btk-4{
+    position: absolute;
+    left: 55%;
+    width: 25vw;
+    top: 16%;
+}
+.main-bg .box-bg .left{
+    position: absolute;
+    left: 20%;
+    top: 18%;
+
+}
+.main-bg .box-bg .left p{
+    width: 30vw;
+    font-family: myfonttt;
+    color: #120100;
+    line-height: 2.2vw;
+    font-weight: 600;
+    
+}
+.main-bg .box-bg .left  h4{
+color: #FFF;
+-webkit-text-stroke-width: 2;
+-webkit-text-stroke-color: #000;
+font-family: "CHIBOLD";
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.56px;color: #FFF;
+-webkit-text-stroke-width: 2;
+-webkit-text-stroke-color: #000;
+font-family: myfont;
+font-size: 4vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.56px;
+    
+}
+.main-bg .box-bg .box-2{
+    width: 72%;
+    display: flex;
+    margin: auto;
+}
+/* -------------------------tkn-sec----------------------------------- */
+.main-bg .tkn-sec .texts h4{
+    /* background-color:#914AAD; */
+    background: linear-gradient(43deg, #914AAD 12.6%, #B971C0 82.18%);
+    padding: 1vw 1vw;
+    font-size: 2.6vw;
+    font-family: myfont;
+    text-align: center;
+    width: 29vw;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 1rem;
+    color: #fff;
+}
+.crn-4{
+    position: absolute;
+    width: 11vw;
+    top: 44%;
+    left: 0;
+}
+.main-bg .tkn-sec {
+    margin-top: 7vw;
+    position: relative;
+}
+.main-bg .tkn-sec .main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 3vw;
+}
+.main-bg .tkn-sec .main-box  .boxs-1{
+    background-image: url(../images/bb.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    border: 20px solid #DA294B;
+    border-radius: 30px;
+    padding: 1vw 1vw;
+    height: 28vw;
+}
+.main-bg .tkn-sec .main-box .boxs-1 img{
+    display: flex;
+    margin: auto;
+    width: 8vw;
+    animation:bounce 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+
+
+    
+}
+
+
+.main-bg .tkn-sec .main-box .boxs-1 .boxx-2{
+    width: 9.8vw;
+    animation: shakeX 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+}
+.main-bg .tkn-sec .main-box .boxs-1{
+    width: 20%;
+}
+.main-bg .tkn-sec .main-box .boxs-1 h4{
+    font-size: 1.2vw;
+    font-family: myfont;
+    color: #262626;
+    padding-left: 1rem;
+    margin-top: 2vw;
+}
+.main-bg .tkn-sec .main-box .boxs-1 ul li{
+    font-size: 1.1vw;
+    font-family: myfonttt;
+    color: #262626;
+    padding-left: -2rem;
+    list-style: disc;
+    font-weight: 600;
+}
+/* ---------------------box-3-------------------------------- */
+.box-3{
+    position: relative;
+    margin-top: 5vw;
+}
+.crn-5{
+    position: absolute;
+    width: 6vw;
+    top: 8%;
+    left: 0;
+}
+.crn-6{
+    position: absolute;
+    width: 10vw;
+    right: 0;
+    top: 44%;
+
+}
+.crnt-2{
+    position: absolute;
+    width: 9vw;
+    top: 37%;
+    left: 0;
+    animation: flash 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+}
+.box-3 .boxes-3{
+    width: 85%;
+    display: flex;
+    margin: auto;
+
+}
+.box-3 .tuxt{
+    position: absolute;
+    top: 9.6%;
+    left: 41%;
+    font-size:4vw;
+    font-family: myfont;
+    color: #fff;
+    letter-spacing: -0.56px;
+}
+.frst{
+    position: absolute;
+    left: 26%;
+    top: 22%;
+}
+.frst img{
+    width: 14vw;
+    transform: translateX(10px);
+    animation: pulse 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    
+}
+.frst ul li{
+    font-size: 1.1vw;
+    font-family: myfonttt;
+    color: #262626;
+    padding-left: -2rem;
+    list-style: disc;
+    font-weight: 600;
+}
+.frst h4{
+    font-size: 2vw;
+    font-family: myfont;
+    color:#D94100;
+    margin-top: 2REM;
+}
+
+.scnd{
+    position: absolute;
+    left: 58%;
+    top: 22%;
+}
+.frst h4{
+    font-size: 2vw;
+    font-family: myfont;
+    color:#D94100;
+    margin-top: 2REM;
+}
+.scnd img{
+    width: 26vw;
+    transform: translateX(-50px);
+    animation: flash 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+}
+.scnd ul li{
+    font-size: 1.1vw;
+    font-family: myfonttt;
+    color: #262626;
+    padding-left: -2rem;
+    list-style: disc;
+    font-weight: 600;
+}
+.scnd h4{
+    font-size: 2vw;
+    font-family: myfont;
+    color:#D94100;
+    margin-top: 2REM;
+}
+.thrd{
+    position: absolute;
+    left: 24%;
+    top: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23vw;
+}
+.thrd  img{
+    width: 14vw;
+    animation: shakeX 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    
+}
+.thrd ul li{
+    font-size: 1.1vw;
+    font-family: myfonttt;
+    color: #262626;
+    padding-left: -2rem;
+    list-style: disc;
+    font-weight: 600;
+}
+.thrd h4{
+    font-size: 2vw;
+    font-family: myfont;
+    color:#D94100;
+    
+}
+/* ------------------------box4-sec------------------------------- */
+.box4-sec{
+    position: relative;
+    margin-top: 4vw;
+
+}
+.box4-sec  .content
+{    
+    position: absolute;
+    left: 19%;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+.boxx-4{
+    width: 84%;
+    display: flex;
+    margin: auto;
+}
+.lfft img{
+    width: 25vw;
+    animation: shakeX 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+    
+}
+.rrght p{
+    width: 33vw;
+    font-family: myfonttt;
+    color: #120100;
+    line-height: 2.2vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+.rrght h6{
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.50);
+    padding: 1vw 2vw;
+    font-size: 1.3vw;
+    font-family: myfonttt;
+    color: #120100;
+
+}
+.box4-sec  .content
+{    
+    position: absolute;
+    left: 19%;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+.rrght .bbtn{
+    border: none;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(91deg, #D54678 8.45%, #FA634F 105.75%);
+    font-size: 1.2vw;
+    font-family: myfont;
+    padding: .7vw 2vw;
+    line-height: 2vw;
+    color: #fff;
+    margin-top: 1.3rem;
+    
+}
+.rrght .bbtn:hover{
+    background: #000;
+}
+.box4-sec .tetx{
+    position: absolute;
+    top: 16%;
+    left: 38%;
+    font-size:4vw;
+    font-family: myfont;
+    color: #fff;
+    letter-spacing: -0.56px;
+}
+/* -------------------------end-box-------------------------------------- */
+.end-box{
+ border-radius: 13px;
+border: 2px solid #000;
+background: linear-gradient(180deg, #F7A05F 0%, #EF405C 100%);
+width: 71%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+box-shadow:15px 15px #CF1C42;
+height: 30vw;
+margin-top: 2vw;
+}
+.end-box .left-cnt img{
+    width: 32vw;
+    transform: translateY(-60px);
+    margin-left: -4rem;
+    animation: shakeX 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+}
+.end-box .left-cnt{
+    width: 30%;
+}
+.end-box .cntr-cnt h4{
+    font-size: 2.5vw;
+    font-family: myfont;
+    color:#fff;
+
+}
+.end-box .cntr-cnt p{
+    font-size: 1.2vw;
+    font-family: myfonttt;
+    color:#120100;
+    
+
+}
+.end-box .cntr-cnt{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.end-box .left-cnt img{
+    width: 32vw;
+    transform: translateY(-60px);
+    margin-left: -4rem;
+}
+.end-box .rght-cnt img{
+    width: 28vw;
+    transform: translateY(-10px);
+    animation: bounce 2S cubic-bezier(0.165, 0.84, 0.44, 1)  infinite alternate;
+}
+.end-box .rght-cnt {
+    width: 30%;
+}
+.end-box .cntr-cnt .end-btn{
+    border: none;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(43deg, #914AAD 12.6%, #B971C0 82.18%);
+    font-size: 1.2vw;
+    font-family: myfont;
+    padding: .7vw 2vw;
+    line-height: 2vw;
+    color: #fff;
+    margin-top: 1.0rem;
+    
+}
+.end-box .cntr-cnt .end-btn:hover{
+    background: #000;
+}
+/* --------------------prgg----- */
+.prgg{
+    text-align: center;
+    font-size: 1.3vw;
+    color: #120100;
+ font-family: myfonttt;
+ margin-top: 7vw;
+}
+.line{
+    width: 50%;
+    height: 1px;
+    background-color: #120100;
+    display: flex;
+    margin: auto;
+    margin-top: 5vw;
+}
+.end-cntt h4{
+color: #FFF;
+-webkit-text-stroke-width: 1;
+-webkit-text-stroke-color: #000;
+font-family:myfont;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.27px;
+margin-top: 7vw;
+}
+.end-cntt p{
+
+
+font-size: 1.3vw;
+color: #000;
+font-family: myfonttt;
+
+}
+
+
+
+/* ------------------------media query--------------------- */
+@media only screen and (max-width: 1024px) {
+
+    .main-bg  .box-1 .text{
+        position: absolute;
+        left: 47%;
+        top: 39%;
+    }
+    .main-bg  .box-1 .text p{
+        width: 32vw;
+        font-family: myfonttt;
+        color: #120100;
+        line-height: 2vw;
+        font-size: 1.3vw;
+    }
+    .main-bg .box-bg .left{
+        position: absolute;
+        left: 20%;
+        top: 18%;
+    
+    }
+    .main-bg .box-bg .left p{
+        width: 30vw;
+        font-family: myfonttt;
+        color: #120100;
+        line-height: 2.2vw;
+        font-weight: 600;
+        font-size: 1.3vw;
+        
+    }
+    .main-bg .box-bg .left  h4{
+    color: #FFF;
+    -webkit-text-stroke-width: 2;
+    -webkit-text-stroke-color: #000;
+    font-family: "CHIBOLD";
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;color: #FFF;
+    -webkit-text-stroke-width: 2;
+    -webkit-text-stroke-color: #000;
+    font-family: myfont;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+        
+    }
+    
+    .main-bg .tkn-sec .main-box  .boxs-1{
+        background-image: url(../images/bb.png);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        border: 16px solid #DA294B;
+        border-radius: 30px;
+        padding: 1vw 1vw;
+        height: 28vw;
+        width: 20%;
+    }
+
+
+
+}
+/* ------------------------ */
+@media only screen and (max-width: 768px){
+    .main-bg .tkn-sec .main-box  .boxs-1{
+        background-image: url(../images/bb.png);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        border: 14px solid #DA294B;
+        border-radius: 30px;
+        padding: 1vw 1vw;
+        height: 32vw;
+        width: 20%;
+    }
+
+}
+
+/* -------------------------------------- */
+@media only screen and (max-width: 768px){
+    .main-bg .tkn-sec .main-box  .boxs-1{
+        background-image: url(../images/bb.png);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        border: 14px solid #DA294B;
+        border-radius: 30px;
+        padding: 1vw 1vw;
+        height: 32vw;
+        width: 20%;
+    }
+
+}
+
+/* ---------------------------------------- */
+
+
+
+
+@media only screen and (max-width: 650px){
+
+.main-bg .btk-img .btk-1{
+    width: 43vw;
+}
+.main-bg .btk-img .btk-2{
+    width: 60vw;
+}
+.main-bg .btk-img .btk-3{
+    width: 25vw;
+}
+.main-bg .btk-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 11%;
+}
+.main-bg .flag img{
+    width: 100%;
+    transform: translateY(7rem);
+    
+}
+.main-bg  .box-1 .text .box-btn{
+    border: none;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(91deg, #D54678 8.45%, #FA634F 105.75%);
+    font-size: 1.2vw;
+    font-family: myfont;
+    padding: .7vw 1.8vw;
+    line-height: 1.5vw;
+    color: #fff;
+    transform: translateY(-.6rem);
+    
+}
+.main-bg .tkn-sec .main-box  .boxs-1{
+    background-image: url(../images/bb.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    border: 1.4vw solid #DA294B;
+    border-radius: 30px;
+    padding: 1vw 1vw;
+    height: 32vw;
+    width: 20%;
+}
+.main-bg{
+    background-image: url(../images/bag.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: #F4BA4E;
+    height:507vw;
+    position: relative;
+    z-index: 3;
+
+    
+}
+.frst h4{
+    font-size: 2vw;
+    font-family: myfont;
+    color:#D94100;
+    margin-top: 1REM;
+}
+.scnd h4{
+    font-size: 2vw;
+    font-family: myfont;
+    color:#D94100;
+    margin-top: 1REM;
+}
+.scnd img{
+    width: 26vw;
+    transform: translateX(-30px);
+}
+.thrd{
+    position: absolute;
+    left: 24%;
+    top: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+}
+.box4-sec  .content
+{    
+    position: absolute;
+    left: 19%;
+    top: 41%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+.rrght .bbtn{
+    border: none;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(91deg, #D54678 8.45%, #FA634F 105.75%);
+    font-size: 1.2vw;
+    font-family: myfont;
+    padding: .7vw 2vw;
+    line-height: 2vw;
+    color: #fff;
+    margin-top: .5rem;
+    
+}
+.box4-sec .tetx{
+    position: absolute;
+    top: 17%;
+    left: 38%;
+    font-size:4vw;
+    font-family: myfont;
+    color: #fff;
+    letter-spacing: -0.56px;
+}
+.end-box .left-cnt img{
+    width: 32vw;
+    transform: translateY(-40px);
+    margin-left: -2rem;
+}
+.end-box .rght-cnt img{
+    width: 29vw;
+    transform: translateY(-10px);
+    margin-left: -1rem;
+}
+.end-box{
+    box-shadow:10px 10px #CF1C42;
+}
+.main-bg .tkn-sec .main-box .boxs-1 ul li{
+    font-size: 1.1vw;
+    font-family: myfonttt;
+    color: #262626;
+    padding-left: -4rem;
+    list-style: disc;
+    font-weight: 600;
+    transform: translateX(-10px);
+}
+
+}
+
+/* ---------------------------------- */
+@media only screen and (max-width: 550px){
+    .main-bg .cntr .btn-icn{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 1vw;
+        padding: 2vw;
+        padding-top: 1.2rem;
+    }
+    .main-bg  .box-1 .text{
+        position: absolute;
+        left: 47%;
+        top: 39%;
+    }
+    .main-bg  .box-1 .text p{
+        width: 32vw;
+        font-family: myfonttt;
+        color: #120100;
+        line-height: 1.8vw;
+        font-size: 1.3vw;
+    }
+    .main-bg .box-bg .left p{
+        width: 30vw;
+        font-family: myfonttt;
+        color: #120100;
+        line-height: 2vw;
+        font-weight: 600;
+        font-size: 1.3vw;
+        
+    }
+    .main-bg .tkn-sec .main-box  .boxs-1{
+        background-image: url(../images/bb.png);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        border: 1.4vw solid #DA294B;
+        border-radius: 24px;
+        padding: 1vw 1vw;
+        height: 32vw;
+        width: 20%;
+    }
+    .end-cntt h4{
+        margin-top: 4vw;
+    }
+    .main-bg .flag img{
+        width: 100%;
+        transform: translateY(5rem);
+        
+    }
+    .main-bg .tkn-sec .main-box .boxs-1 ul li{
+        font-size: 1.1vw;
+        font-family: myfonttt;
+        color: #262626;
+        padding-left: -4rem;
+        list-style: disc;
+        font-weight: 600;
+        transform: translateX(-10px);
+    }
+
+}
+/* ----------------------------------- */
+@media only screen and (max-width: 450px){
+    .scnd h4{
+        font-size: 2vw;
+        font-family: myfont;
+        color:#D94100;
+        margin-top: .5rem;
+    }
+    .frst h4{
+        font-size: 2vw;
+        font-family: myfont;
+        color:#D94100;
+        margin-top: .5rem;
+    }
+    .scnd img{
+        width: 26vw;
+        transform: translateX(-30px);
+    }
+    .thrd{
+        position: absolute;
+        left: 24%;
+        top: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16vw;
+    }
+    .main-bg .flag img{
+        width: 100%;
+        transform: translateY(4rem);
+        
+    }
+    .main-bg .tkn-sec .main-box  .boxs-1{
+        background-image: url(../images/bb.png);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        border: 1.4vw solid #DA294B;
+        border-radius: 24px;
+        padding: 1vw 1vw;
+        height: 33vw;
+        width: 20%;
+    }
+    .end-box .left-cnt img{
+        width: 32vw;
+        transform: translateY(-25px);
+        margin-left: -1.4rem;
+    }
+    .end-box .rght-cnt img{
+        width: 29vw;
+        transform: translateY(-3px);
+        margin-left: -1rem;
+    }
+    .main-bg .tkn-sec .main-box .boxs-1 ul li{
+        font-size: 1.1vw;
+        font-family: myfonttt;
+        color: #262626;
+        padding-left: -4rem;
+        list-style: disc;
+        font-weight: 600;
+        transform: translateX(-10px);
+    }
+    .end-box{
+        box-shadow:8px 8px #CF1C42;
+    }
+   
+    
+}
+/* -------------------- */
+@media only screen and (max-width: 400px){
+    .main-bg .tkn-sec .main-box  .boxs-1{
+        background-image: url(../images/bb.png);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        border: 1.4vw solid #DA294B;
+        border-radius: 24px;
+        padding: 1vw 1vw;
+        height: 35vw;
+        width: 20%;
+    }
+    .scnd img{
+        width: 26vw;
+        transform: translateX(-20px);
+    }
+    .main-bg .tkn-sec .main-box .boxs-1 ul li{
+        font-size: 1.1vw;
+        font-family: myfonttt;
+        color: #262626;
+        padding-left: -4rem;
+        list-style: disc;
+        font-weight: 600;
+        transform: translateX(-10px);
+    }
+    .end-box{
+        box-shadow:8px 8px #CF1C42;
+    }
+
+}
+/* ---------------- */
+@media only screen and (max-width: 380px){
+    .main-bg .tkn-sec .main-box  .boxs-1{
+        background-image: url(../images/bb.png);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        border: 1.4vw solid #DA294B;
+        border-radius: 24px;
+        padding: 1vw 1vw;
+        height: 38vw;
+        width: 20%;
+    }
+    .scnd img{
+        width: 26vw;
+        transform: translateX(-20px);
+    }
+    .main-bg .tkn-sec .main-box .boxs-1 ul li{
+        font-size: 1.1vw;
+        font-family: myfonttt;
+        color: #262626;
+        padding-left: -4rem;
+        list-style: disc;
+        font-weight: 600;
+        transform: translateX(-10px);
+    }
+    .end-box{
+        box-shadow:7px 7px #CF1C42;
+    }
+
+}
